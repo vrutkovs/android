@@ -26,10 +26,10 @@
   <project name="cxl000/android_kernel_google_msm" path="kernel/google/msm" revision="hybris-11.0-deb" />
 
 
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
-  <project path="rpm/" name="cxl000/droid-hal-deb" revision="hybris-11.0-deb" />
-  <project path="hybris/droid-configs" name="cxl000/droid-config-deb" revision="hybris-11.0-deb" />
-  <project path="hybris/droid-hal-version-deb" name="cxl000/droid-hal-version-deb" revision="hybris-11.0-deb" />
+  <project path="hybris/hybris-boot" name="cxl000/hybris-boot" revision="hybris-11.0-deb"/>
+  <project path="rpm/" name="cxl000/droid-hal-deb" revision="master" />
+  <project path="hybris/droid-configs" name="cxl000/droid-config-deb" revision="master" />
+  <project path="hybris/droid-hal-version-deb" name="cxl000/droid-hal-version-deb" revision="master" />
   <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
   <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.3" />
@@ -394,9 +394,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-
-  <project name="mer-hybris/android_device_lge_hammerhead" path="device/lge/hammerhead" revision="hybris-11.0-44S" />
-  <!-- leaving as it is on hybris-11.0, will deal with (huge) rebasing later -->
-  <project name="mer-hybris/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" revision="hybris-11.0" />
 
 </manifest>
