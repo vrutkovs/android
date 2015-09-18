@@ -18,7 +18,17 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
+  <project name="cxl000/android_device_asus_flo" path="device/asus/flo" revision="hybris-12.1" />
+  <project name="cxl000/android_device_asus_deb" path="device/asus/deb" revision="hybris-12.1" />
+  <project name="cxl000/android_kernel_google_msm" path="kernel/google/msm" revision="hybris-12.1-deb" />
+
+
+  <project path="hybris/hybris-boot" name="cxl000/hybris-boot" revision="hybris-11.0-deb"/>
+  <project path="rpm/" name="cxl000/droid-hal-deb" revision="hybris-11.0-deb" />
+  <project path="hybris/droid-configs" name="cxl000/droid-config-deb" revision="hybris-11.0-deb" />
+  <project path="hybris/droid-hal-version-deb" name="cxl000/droid-hal-version-deb" revision="hybris-11.0-deb" />
+  <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
+  <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
 
