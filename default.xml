@@ -24,7 +24,7 @@
 
 
   <project path="hybris/hybris-boot" name="cxl000/hybris-boot" revision="hybris-11.0-deb"/>
-  <project path="rpm/" name="cxl000/droid-hal-deb" revision="hybris-11.0-deb" />
+  <project path="rpm/" name="cxl000/droid-hal-deb" revision="hybris-12.1-deb" />
   <project path="hybris/droid-configs" name="cxl000/droid-config-deb" revision="hybris-11.0-deb" />
   <project path="hybris/droid-hal-version-deb" name="cxl000/droid-hal-version-deb" revision="hybris-11.0-deb" />
   <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
