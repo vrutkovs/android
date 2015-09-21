@@ -27,9 +27,9 @@
 
 
   <project path="hybris/hybris-boot" name="cxl000/hybris-boot" revision="hybris-11.0-deb"/>
-  <project path="rpm/" name="cxl000/droid-hal-deb" revision="master" />
-  <project path="hybris/droid-configs" name="cxl000/droid-config-deb" revision="master" />
-  <project path="hybris/droid-hal-version-deb" name="cxl000/droid-hal-version-deb" revision="master" />
+  <project path="rpm/" name="vrutkovs/droid-hal-flo" revision="master" />
+  <project path="hybris/droid-configs" name="vrutkovs/droid-config-flo" revision="master" />
+  <project path="hybris/droid-hal-version-deb" name="vrutkovs/droid-hal-version-flo" revision="master" />
   <project path="hybris/droid-hal-configs" name="mer-hybris/droid-hal-configs" remote="github" revision="hybris-10.1"/>
   <project path="hybris/droid-hal-version" name="mer-hybris/droid-hal-version" remote="github" revision="master"/>
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="refs/tags/0.0.3" />
